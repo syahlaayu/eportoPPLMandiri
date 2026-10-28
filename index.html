@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio PPL | Syahla Ayu Yasinta, S.Pd. — PPG Calon Guru Gelombang 1 2026</title>
+  
+  <!-- Meta SEO & Akademis -->
+  <meta name="description" content="E-Portofolio Interaktif Seminar Mata Kuliah Praktik Pengalaman Lapangan (PPL) Mahasiswa PPG Calon Guru Gelombang 1 Tahun 2026, Pendidikan Bahasa dan Sastra Indonesia, Universitas Muhammadiyah Purwokerto di SMP Negeri 5 Purwokerto.">
+  <meta name="author" content="Syahla Ayu Yasinta, S.Pd.">
+  
+  <!-- Google Fonts: Poppins, Montserrat, Playfair Display, Lora, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome 6 Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================================================================
+       SVG ORNAMENT DEFINITIONS (Batik Kawung & Parang Nusantara)
+       =================================================================== -->
+  <svg style="display:none;" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <!-- Batik Kawung Pattern Standar -->
+      <pattern id="batikKawungPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M20,0 C20,11 11,20 0,20 C11,20 20,29 20,40 C20,29 29,20 40,20 C29,20 20,11 20,0 Z" fill="none" stroke="#34483C" stroke-width="0.7" opacity="0.15"/>
+        <circle cx="20" cy="20" r="3.5" fill="#B96F52" opacity="0.2"/>
+        <circle cx="0" cy="0" r="2.5" fill="#34483C" opacity="0.12"/>
+        <circle cx="40" cy="0" r="2.5" fill="#34483C" opacity="0.12"/>
+        <circle cx="0" cy="40" r="2.5" fill="#34483C" opacity="0.12"/>
+        <circle cx="40" cy="40" r="2.5" fill="#34483C" opacity="0.12"/>
+      </pattern>
+
+      <!-- Rich Eye-Catching Batik Kawung & Floral Cover Pattern (Golden & Crisp White on Deep Forest Green) -->
+      <pattern id="heroCoverBatikPattern" width="60" height="60" patternUnits="userSpaceOnUse">
+        <!-- Outer Kawung Intersecting Petals -->
+        <path d="M30,0 C30,16 16,30 0,30 C16,30 30,44 30,60 C30,44 44,30 60,30 C44,30 30,16 30,0 Z" fill="none" stroke="#FFFFFF" stroke-width="1.3" opacity="0.35"/>
+        <!-- Inner Decorative Petal Lines -->
+        <path d="M30,8 C30,20 20,30 8,30 C20,30 30,40 30,52 C30,40 40,30 52,30 C40,30 30,20 30,8 Z" fill="none" stroke="#E59572" stroke-width="1.1" opacity="0.5"/>
+        <!-- Central Stamen Rings -->
+        <circle cx="30" cy="30" r="5" fill="#B8C4AD" opacity="0.35"/>
+        <circle cx="30" cy="30" r="2.5" fill="#F3C068" opacity="0.8"/>
+        <!-- Corner Dots -->
+        <circle cx="0" cy="0" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+        <circle cx="60" cy="0" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+        <circle cx="0" cy="60" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+        <circle cx="60" cy="60" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+        <!-- Diagonal Filigree Lines -->
+        <line x1="0" y1="0" x2="16" y2="16" stroke="#B8C4AD" stroke-width="0.8" opacity="0.35"/>
+        <line x1="60" y1="0" x2="44" y2="16" stroke="#B8C4AD" stroke-width="0.8" opacity="0.35"/>
+        <line x1="0" y1="60" x2="16" y2="44" stroke="#B8C4AD" stroke-width="0.8" opacity="0.35"/>
+        <line x1="60" y1="60" x2="44" y2="44" stroke="#B8C4AD" stroke-width="0.8" opacity="0.35"/>
+      </pattern>
+    </defs>
+  </svg>
+
+  <!-- Batik Watermark Side Decorative Layer -->
+  <div class="batik-watermark-bg">
+    <svg width="100%" height="100%">
+      <rect width="100%" height="100%" fill="url(#batikKawungPattern)"/>
+    </svg>
+  </div>
+
+  <!-- ===================================================================
+       TOP NAVBAR HEADER (NAVIGASI & STATUS PROGRES)
+       =================================================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="nav-container">
+      
+      <!-- Brand & Identity (Baris 1 Nama, Baris 2 Prodi) -->
+      <div class="nav-brand" data-jump-to="cover" title="Kembali ke Cover / Beranda">
+        <div class="brand-crest">
+          <i class="fas fa-feather-alt"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Syahla Ayu Yasinta, S.Pd.</span>
+          <span class="brand-subtitle">Pendidikan Bahasa dan Sastra Indonesia</span>
+        </div>
+      </div>
+
+      <!-- Navigation Pills (Simpel & Tanpa Angka) -->
+      <ul class="nav-pills" id="navPillsList">
+        <li>
+          <button class="nav-pill-btn active" data-target="cover" title="Cover & Beranda">
+            Cover
+          </button>
+        </li>
+        <li>
+          <button class="nav-pill-btn" data-target="menu" title="Menu Navigasi Digital">
+            Menu
+          </button>
+        </li>
+        <li>
+          <button class="nav-pill-btn" data-target="profil" title="Profil Guru & Sekolah Mitra">
+            Profil & Mitra
+          </button>
+        </li>
+        <li>
+          <button class="nav-pill-btn" data-target="topik3" title="Analisis Praktik Mandiri">
+            Topik 3
+          </button>
+        </li>
+        <li>
+          <button class="nav-pill-btn" data-target="uts" title="Showcase Praktik UTS">
+            UTS
+          </button>
+        </li>
+        <li>
+          <button class="nav-pill-btn" data-target="uas" title="Showcase Praktik UAS">
+            UAS
+          </button>
+        </li>
+        <li>
+          <button class="nav-pill-btn" data-target="sintesis" title="Sintesis & Penutup">
+            Sintesis & Penutup
+          </button>
+        </li>
+      </ul>
+
+      <!-- Action Utilities (Search, Theme, Seminar Tag) -->
+      <div class="nav-utilities">
+        <button class="nav-action-btn" id="searchBtn" title="Pencarian Cepat Artefak & Teori (Ctrl+K)">
+          <i class="fas fa-search"></i>
+        </button>
+        <button class="nav-action-btn" id="themeToggleBtn" title="Ganti Mode Tampilan (Terang / Sepia / Gelap)">
+          <i class="fas fa-sun"></i>
+        </button>
+        <button class="btn-seminar-badge" onclick="window.print()" title="Cetak Ringkasan Eksekutif Portofolio untuk Seminar">
+          <i class="fas fa-print"></i> Cetak / PDF
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Menu Mobile" title="Buka Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Linear Progress Indicator -->
+    <div class="portfolio-progress-container">
+      <div class="portfolio-progress-bar" id="portfolioProgressBar"></div>
+    </div>
+  </header>
+
+  <!-- ===================================================================
+       MAIN VIEWPORT CONTAINER (VIEW SECTION-BY-SECTION)
+       =================================================================== -->
+  <main class="portfolio-main-viewport">
+
+    <!-- ===============================================================
+         BAGIAN 1: COVER / HERO SECTION (Nuansa Hijau & Batik Nusantara)
+         =============================================================== -->
+    <section class="portfolio-section active-section" id="cover">
+      <div class="hero-editorial-grid">
+        
+        <!-- Decorative Batik Texture Overlay (Corak Batik Nyata & Segar) -->
+        <div class="hero-batik-texture-overlay">
+          <svg width="100%" height="100%">
+            <rect width="100%" height="100%" fill="url(#heroCoverBatikPattern)"/>
+          </svg>
+        </div>
+
+        <!-- Ornate Corner Batik Accents -->
+        <div class="hero-batik-corner hero-batik-corner-tr">
+          <svg viewBox="0 0 100 100" width="100%" height="100%" fill="none">
+            <path d="M100,0 L60,0 C60,22.1 77.9,40 100,40 Z" fill="#34483C" opacity="0.25"/>
+            <path d="M100,0 L40,0 C40,33.1 66.9,60 100,60 Z" fill="none" stroke="#B96F52" stroke-width="1.8" opacity="0.45"/>
+            <path d="M100,0 L20,0 C20,44.2 55.8,80 100,80 Z" fill="none" stroke="#34483C" stroke-width="2.2" opacity="0.5"/>
+            <circle cx="75" cy="25" r="9" fill="#C6893F" opacity="0.45"/>
+            <circle cx="85" cy="15" r="4.5" fill="#34483C" opacity="0.5"/>
+            <path d="M100,10 C80,10 70,25 70,45" stroke="#B96F52" stroke-width="1.5" opacity="0.5"/>
+          </svg>
+        </div>
+
+        <div class="hero-batik-corner hero-batik-corner-bl">
+          <svg viewBox="0 0 100 100" width="100%" height="100%" fill="none">
+            <path d="M100,0 L60,0 C60,22.1 77.9,40 100,40 Z" fill="#34483C" opacity="0.25"/>
+            <path d="M100,0 L40,0 C40,33.1 66.9,60 100,60 Z" fill="none" stroke="#B96F52" stroke-width="1.8" opacity="0.45"/>
+            <path d="M100,0 L20,0 C20,44.2 55.8,80 100,80 Z" fill="none" stroke="#34483C" stroke-width="2.2" opacity="0.5"/>
+            <circle cx="75" cy="25" r="9" fill="#C6893F" opacity="0.45"/>
+            <circle cx="85" cy="15" r="4.5" fill="#34483C" opacity="0.5"/>
+            <path d="M100,10 C80,10 70,25 70,45" stroke="#B96F52" stroke-width="1.5" opacity="0.5"/>
+          </svg>
+        </div>
+        
+        <!-- Left Column: Typography & Akademis Identity -->
+        <div class="hero-text-content">
+          <div class="hero-eyebrow">
+            <i class="fas fa-graduation-cap"></i> Seminar Portofolio PPL PPG Calon Guru Gelombang 1 Tahun 2026
+          </div>
+
+          <h1 class="hero-super-title">
+            E-PORTFOLIO <span class="highlight-terracotta">PPL</span>
+          </h1>
+
+          <div class="hero-sub-statement">
+            "Refleksi & Evaluasi Praktik Pengalaman Lapangan Calon Guru Bahasa dan Sastra Indonesia yang Berdaya, Berkarakter, dan Memerdekakan."
+          </div>
+
+          <!-- Academic Affiliation Meta Badges -->
+          <div class="hero-meta-badges">
+            <div class="meta-pill-item">
+              <div class="meta-pill-icon"><i class="fas fa-user-edit"></i></div>
+              <div><strong>Syahla Ayu Yasinta, S.Pd.</strong> — Calon Guru Profesional</div>
+            </div>
+            <div class="meta-pill-item">
+              <div class="meta-pill-icon"><i class="fas fa-university"></i></div>
+              <div>Pendidikan Bahasa dan Sastra Indonesia — <strong>Universitas Muhammadiyah Purwokerto</strong></div>
+            </div>
+            <div class="meta-pill-item">
+              <div class="meta-pill-icon"><i class="fas fa-school"></i></div>
+              <div>Sekolah Mitra PPL: <strong>SMP Negeri 5 Purwokerto</strong></div>
+            </div>
+          </div>
+
+          <!-- Editorial Batik Divider Small -->
+          <div class="editorial-batik-divider" style="margin: 1.5rem 0 2rem; justify-content: flex-start;">
+            <div class="line" style="max-width: 80px;"></div>
+            <div class="symbol"><i class="fas fa-feather-alt"></i></div>
+            <div class="line" style="max-width: 140px;"></div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-group">
+            <button class="btn-primary-hero" data-jump-to="menu">
+              Buka Menu Navigasi <i class="fas fa-compass"></i>
+            </button>
+            <button class="btn-secondary-hero" data-jump-to="profil">
+              Tentang Guru & Sekolah <i class="fas fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column: Clean Straight Portrait Frame (Foto 1) -->
+        <div class="hero-photo-scrapbook">
+          <div class="scrapbook-card-main">
+            <div class="scrapbook-image-wrap">
+              <img src="Foto 1.jpeg" alt="Foto Profil Syahla Ayu Yasinta, S.Pd.">
+            </div>
+
+            <div class="scrapbook-caption">
+              <h3 class="candidate-name">Syahla Ayu Yasinta, S.Pd.</h3>
+              <p class="candidate-title">Pendidikan Bahasa dan Sastra Indonesia</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         BAGIAN 2: MENU UTAMA / DASHBOARD NAVIGASI
+         =============================================================== -->
+    <section class="portfolio-section" id="menu">
+      <!-- Horizontal Green Accent Bar Prominent -->
+      <div class="green-horizontal-bar-prominent"></div>
+
+      <div class="section-intro-header">
+        <span class="section-tagline"><i class="fas fa-th-large"></i> Dashboard Portofolio Digital</span>
+        <h2 class="section-main-title">MENU UTAMA PPL</h2>
+        <div class="editorial-batik-divider">
+          <div class="line"></div>
+          <div class="symbol"><i class="fas fa-book-reader"></i></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-sub-desc">
+          Jelajahi dokumentasi komprehensif, analisis mendalam, serta artefak autentik pembelajaran Bahasa Indonesia selama Praktik Pengalaman Lapangan di SMP Negeri 5 Purwokerto.
+        </p>
+      </div>
+
+      <!-- 3 Kartu Navigasi Utama (Cukup TOPIK 3, UTS, UAS Tanpa Penjelasan Titik Dua) -->
+      <div class="dashboard-grid-showcase">
+        
+        <!-- Kartu Topik 3 -->
+        <div class="nav-card-primary" data-jump-to="topik3">
+          <div>
+            <div class="card-icon-badge"><i class="fas fa-book-reader"></i></div>
+            <span class="card-topic-tag">Analisis Praktik Mandiri</span>
+            <h3 class="nav-card-title">TOPIK 3</h3>
+            <p class="nav-card-desc">
+              Fokus pada materi <strong>Menyimpulkan Isi Teks Deskripsi (Kuliner Lokal Sroto Sokaraja)</strong> dengan Problem Based Learning, pemetaan kesiapan belajar, diferensiasi konten, serta pendampingan ekstrakurikuler Kreativo.
+            </p>
+          </div>
+          <div class="nav-card-footer">
+            <span class="card-meta-count"><i class="fas fa-layer-group"></i> 6 Komponen Artefak</span>
+            <div class="btn-open-card"><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+
+        <!-- Kartu UTS -->
+        <div class="nav-card-primary" data-jump-to="uts">
+          <div>
+            <div class="card-icon-badge"><i class="fas fa-feather-alt"></i></div>
+            <span class="card-topic-tag">Showcase Praktik</span>
+            <h3 class="nav-card-title">UTS</h3>
+            <p class="nav-card-desc">
+              Menampilkan karya terbaik: kegiatan menyempurnakan tulisan melalui <strong>Jurnal CERITA</strong> dan <strong>Kartu Editor Teman</strong> berlandaskan prinsip Deep Learning <em>(mindful, meaningful, joyful)</em>.
+            </p>
+          </div>
+          <div class="nav-card-footer">
+            <span class="card-meta-count"><i class="fas fa-video"></i> Video Praktik & 5 Artefak</span>
+            <div class="btn-open-card"><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+
+        <!-- Kartu UAS -->
+        <div class="nav-card-primary" data-jump-to="uas">
+          <div>
+            <div class="card-icon-badge"><i class="fas fa-wand-magic-sparkles"></i></div>
+            <span class="card-topic-tag">Evaluasi Akhir & Produk Unggulan</span>
+            <h3 class="nav-card-title">UAS</h3>
+            <p class="nav-card-desc">
+              Menekankan keterampilan menyimak cerita fantasi untuk memahami pesan atau amanat cerita berdasarkan bukti peristiwa dalam teks, dengan bantuan teknologi melalui PPT interaktif, kartu peran, dan penilaian formatif yang selaras dengan tujuan pembelajaran, kegiatan, dan penilaian sesuai pendekatan Biggs.
+            </p>
+          </div>
+          <div class="nav-card-footer">
+            <span class="card-meta-count"><i class="fas fa-file-signature"></i> Produk Unggulan & 5 Artefak</span>
+            <div class="btn-open-card"><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Navigasi Cepat Pendukung (Secondary Quick Jump) -->
+      <div class="dashboard-secondary-grid">
+        
+        <div class="nav-card-secondary" data-jump-to="cover">
+          <div class="sec-icon-box"><i class="fas fa-home"></i></div>
+          <div class="sec-text-box">
+            <h4>Cover</h4>
+            <span>Halaman Pembuka & Identitas</span>
+          </div>
+        </div>
+
+        <div class="nav-card-secondary" data-jump-to="profil">
+          <div class="sec-icon-box"><i class="fas fa-id-badge"></i></div>
+          <div class="sec-text-box">
+            <h4>Profil Guru & Mitra</h4>
+            <span>Syahla Ayu & SMPN 5 Purwokerto</span>
+          </div>
+        </div>
+
+        <div class="nav-card-secondary" data-jump-to="sintesis">
+          <div class="sec-icon-box"><i class="fas fa-seedling"></i></div>
+          <div class="sec-text-box">
+            <h4>Sintesis & Penutup</h4>
+            <span>Refleksi Transformatif & Galeri</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         BAGIAN 3: PROFIL GURU & LATAR BELAKANG PPL (SMPN 5 PURWOKERTO)
+         =============================================================== -->
+    <section class="portfolio-section" id="profil">
+      <!-- Horizontal Green Accent Bar -->
+      <div class="green-horizontal-bar"></div>
+
+      <div class="section-intro-header">
+        <span class="section-tagline"><i class="fas fa-user-circle"></i> Tentang Calon Pendidik & Ekosistem PPL</span>
+        <h2 class="section-main-title">TENTANG SAYA & SEKOLAH MITRA</h2>
+        <div class="editorial-batik-divider">
+          <div class="line"></div>
+          <div class="symbol"><i class="fas fa-scroll"></i></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-sub-desc">
+          Perpaduan komitmen pribadi calon guru Bahasa Indonesia dengan ekosistem belajar yang humanis dan berkarakter kebangsaan di SMP Negeri 5 Purwokerto.
+        </p>
+      </div>
+
+      <div class="profile-dual-grid">
+        
+        <!-- Sisi Kiri: Profil Guru (Foto 1) -->
+        <div class="profile-card-box">
+          <div class="profile-photo-row">
+            <div class="profile-photo-circle">
+              <img src="Foto 1.jpeg" alt="Syahla Ayu Yasinta, S.Pd.">
+            </div>
+            <div class="profile-header-info">
+              <h3>Syahla Ayu Yasinta, S.Pd.</h3>
+              <p class="profile-role-sub">Mahasiswa PPG Calon Guru Gelombang 1 Tahun 2026</p>
+              <span class="profile-univ-tag">
+                <i class="fas fa-university"></i> Universitas Muhammadiyah Purwokerto
+              </span>
+            </div>
+          </div>
+
+          <!-- Komitmen Pedagogis Guru -->
+          <div class="commitment-quote-box">
+            <div class="quote-icon">“</div>
+            <p>
+              Berkomitmen untuk menciptakan pembelajaran Bahasa Indonesia yang interaktif, inklusif, kreatif, dan bermakna melalui penguatan keterampilan berbahasa, literasi, serta apresiasi sastra guna mengembangkan kemampuan berpikir kritis, kreativitas, dan karakter peserta didik.
+            </p>
+          </div>
+
+          <!-- Detail Identitas Akademik (Poin Rapi & Terstruktur) -->
+          <div class="profile-meta-grid">
+            <div class="profile-meta-row">
+              <div class="meta-row-icon"><i class="fas fa-book-open"></i></div>
+              <div class="meta-row-content">
+                <span class="meta-row-label">Program Studi</span>
+                <span class="meta-row-val">Pendidikan Bahasa dan Sastra Indonesia</span>
+              </div>
+            </div>
+
+            <div class="profile-meta-row">
+              <div class="meta-row-icon"><i class="fas fa-graduation-cap"></i></div>
+              <div class="meta-row-content">
+                <span class="meta-row-label">Jenjang & Gelombang</span>
+                <span class="meta-row-val">PPG Calon Guru (Prajabatan) Gelombang 1 Tahun 2026</span>
+              </div>
+            </div>
+
+            <div class="profile-meta-row">
+              <div class="meta-row-icon"><i class="fas fa-university"></i></div>
+              <div class="meta-row-content">
+                <span class="meta-row-label">Perguruan Tinggi</span>
+                <span class="meta-row-val">Universitas Muhammadiyah Purwokerto (UMP)</span>
+              </div>
+            </div>
+
+            <div class="profile-meta-row">
+              <div class="meta-row-icon"><i class="fas fa-school"></i></div>
+              <div class="meta-row-content">
+                <span class="meta-row-label">Sekolah Mitra PPL</span>
+                <span class="meta-row-val">SMP Negeri 5 Purwokerto</span>
+              </div>
+            </div>
+
+            <div class="profile-meta-row">
+              <div class="meta-row-icon"><i class="fas fa-compass"></i></div>
+              <div class="meta-row-content">
+                <span class="meta-row-label">Fokus & Pendekatan Pedagogik</span>
+                <span class="meta-row-val">Pembelajaran Berdiferensiasi, Deep Learning & Etnoliterasi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sisi Kanan: Profil Sekolah Mitra (Foto 2 Diperbesar Bersih Tanpa Keterangan) -->
+        <div class="profile-card-box">
+          <div class="school-hero-image-wrap">
+            <img src="Foto 2.jpeg" alt="SMP Negeri 5 Purwokerto">
+          </div>
+
+          <div class="school-desc-body">
+            <h4 style="font-family:var(--font-serif); font-size:1.35rem; color:var(--primary); margin-bottom:0.6rem;">
+              Ekosistem Praktik Pengalaman Lapangan
+            </h4>
+            <p style="font-size:0.92rem; color:var(--neutral-muted); line-height:1.65;">
+              SMP Negeri 5 Purwokerto merupakan sekolah mitra strategis yang menjunjung tinggi iklim pembelajaran yang inklusif, ramah anak, dan kental dengan nilai kearifan lokal Banyumasan. Sekolah ini memberikan ruang eksplorasi pedagogik yang kaya bagi calon guru dalam mengimplementasikan Kurikulum Merdeka.
+            </p>
+          </div>
+
+          <!-- Fitur Karakteristik Sekolah Mitra -->
+          <div class="school-features-grid">
+            <div class="school-feature-item">
+              <h5><i class="fas fa-seedling" style="color:var(--primary);"></i> Iklim Belajar</h5>
+              <p>Dinamis, tertib, dan kolaboratif dengan penguatan Gerakan Literasi Sekolah (GLS) serta pojok baca aktif di setiap ruang kelas.</p>
+            </div>
+            <div class="school-feature-item">
+              <h5><i class="fas fa-users" style="color:var(--accent-terracotta);"></i> Keunikan Siswa</h5>
+              <p>Peserta didik kelas VII memiliki keberagaman gaya belajar yang unik, karakter komunikatif <em>(cablaka/blakasuta)</em>, serta antusias pada media visual interaktif.</p>
+            </div>
+            <div class="school-feature-item">
+              <h5><i class="fas fa-palette" style="color:var(--accent-burgundy);"></i> Wadah Bakat</h5>
+              <p>Mendukung kreativitas generasi digital melalui ekstrakurikuler <strong>Kreativo</strong> yang berfokus pada konten edukasi sekolah.</p>
+            </div>
+            <div class="school-feature-item">
+              <h5><i class="fas fa-hand-holding-heart" style="color:var(--supporting-sage-dark);"></i> Kemitraan Guru</h5>
+              <p>Bimbingan berkelanjutan bersama Guru Pamong dan Dosen Pembimbing Lapangan dalam merefleksikan setiap siklus mengajar.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         BAGIAN 4: TOPIK 3 — ANALISIS PRAKTIK PEMBELAJARAN MANDIRI
+         =============================================================== -->
+    <section class="portfolio-section" id="topik3">
+      <!-- Horizontal Green Accent Bar -->
+      <div class="green-horizontal-bar"></div>
+
+      <div class="section-intro-header">
+        <span class="section-tagline"><i class="fas fa-tasks"></i> Praktik Pembelajaran Mandiri</span>
+        <h2 class="section-main-title">TOPIK 3: ANALISIS PRAKTIK MANDIRI</h2>
+        <div class="editorial-batik-divider">
+          <div class="line"></div>
+          <div class="symbol"><i class="fas fa-book-open"></i></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-sub-desc">
+          Materi Pembelajaran Bahasa Indonesia Kelas VII: <strong>Menyimpulkan Isi Teks Deskripsi (Kuliner Sroto Sokaraja)</strong> dengan Model <em>Problem Based Learning (PBL)</em> dan Pendekatan Literasi Berdiferensiasi.
+        </p>
+      </div>
+
+      <!-- Sub-Navigation Pills Artefak Topik 3 (Bersih Tanpa Nomor) -->
+      <div class="artefact-subnav-wrapper">
+        <button class="subnav-btn active" data-panel="t3-modul">
+          <i class="fas fa-file-alt"></i> Modul Ajar / RPP
+        </button>
+        <button class="subnav-btn" data-panel="t3-lkpd">
+          <i class="fas fa-clipboard-list"></i> Analisis LKPD
+        </button>
+        <button class="subnav-btn" data-panel="t3-media">
+          <i class="fas fa-tv"></i> Media Pembelajaran (PPT)
+        </button>
+        <button class="subnav-btn" data-panel="t3-video">
+          <i class="fab fa-youtube" style="color:#FF0000;"></i> Video Praktik (YouTube)
+        </button>
+        <button class="subnav-btn" data-panel="t3-nonajar">
+          <i class="fas fa-users-cog"></i> Kegiatan Non-Mengajar
+        </button>
+        <button class="subnav-btn" data-panel="t3-pamong">
+          <i class="fas fa-check-double"></i> Penilaian Guru Pamong
+        </button>
+      </div>
+
+      <!-- -------------------------------------------------------------
+           PANEL 1: MODUL AJAR TOPIK 3
+           ------------------------------------------------------------- -->
+      <div class="artefact-panel active-panel" id="t3-modul">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran Bahasa Indonesia kelas VII pada materi <strong>Menyimpulkan Isi Teks Deskripsi</strong> menggunakan model Problem Based Learning (PBL).</p>
+              <p>Peserta didik berperan sebagai <em>tim redaksi majalah sekolah</em> yang bertugas menyusun simpulan singkat tentang <strong>Sroto Sokaraja</strong> berdasarkan informasi penting dan gagasan utama dalam teks deskripsi.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Sintaks PBL tersusun secara runtut, mulai dari orientasi terhadap masalah hingga evaluasi proses pemecahan masalah.</p>
+              <p>Masalah kontekstual yang berkaitan dengan kuliner lokal Banyumas (Sroto Sokaraja) membuat pembelajaran lebih bermakna. Modul juga memuat pemetaan kesiapan belajar peserta didik ke dalam kategori tinggi, sedang, dan rendah, disertai pendampingan bertahap <em>(scaffolding)</em>, LKPD kelompok, presentasi, serta asesmen individu.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Diferensiasi pembelajaran telah dirancang melalui pemetaan kesiapan belajar, proses, dan produk, tetapi penerapannya perlu diperkuat agar perbedaan dukungan dan tantangan belajar terlihat lebih konsisten dalam kegiatan pembelajaran.</p>
+              <p>Produk akhir peserta didik masih berfokus pada penyusunan simpulan tertulis sehingga variasi bentuk penyajian hasil belajar belum banyak dikembangkan. Selain itu, pemahaman peserta didik tentang pentingnya menyimpulkan informasi perlu ditindaklanjuti dengan penerapan keterampilan tersebut dalam berbagai konteks membaca dan kehidupan sehari-hari.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini menggunakan model <strong>Problem Based Learning dari Arends</strong>, yaitu pembelajaran yang mengajak peserta didik menyelesaikan masalah yang berkaitan dengan kehidupan sehari-hari. Teori <strong>Zone of Proximal Development (ZPD) dan Scaffolding dari Vygotsky</strong> menjadi dasar bagi guru untuk memberikan bantuan secara bertahap sesuai kebutuhan peserta didik hingga mereka mampu belajar secara mandiri. Selain itu, <strong>pembelajaran berdiferensiasi dari Tomlinson</strong> diterapkan dengan menyesuaikan kegiatan belajar berdasarkan kesiapan masing-masing peserta didik. <strong>Pendekatan literasi</strong> juga digunakan untuk melatih peserta didik memahami informasi, menemukan gagasan utama, menghubungkan informasi, dan menyusun simpulan menggunakan kalimat sendiri.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Arends (PBL)</span>
+                <span class="theory-pill">Vygotsky (ZPD & Scaffolding)</span>
+                <span class="theory-pill">Tomlinson (Diferensiasi)</span>
+                <span class="theory-pill">Pendekatan Literasi</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Frame Embed Modul Ajar -->
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-pdf"><i class="fas fa-file-pdf"></i></div>
+              <div class="embed-meta-text">
+                <h4>Modul Ajar / RPP: Menyimpulkan Teks Deskripsi (Sroto Sokaraja)</h4>
+                <span>Format Dokumen PDF Interaktif · Tersedia Pratinjau & Unduh Dokumen</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <button class="btn-embed-action" onclick="copyLinkToClipboard('https://drive.google.com/file/d/1q57QLZTQEGyh1rsbnitOtYeuLWUambjP/view?usp=sharing', this)">
+                <i class="fas fa-copy"></i> Salin Tautan
+              </button>
+              <a href="https://drive.google.com/file/d/1q57QLZTQEGyh1rsbnitOtYeuLWUambjP/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1q57QLZTQEGyh1rsbnitOtYeuLWUambjP/preview" title="Modul Ajar Topik 3" loading="lazy"></iframe>
+          </div>
+
+          <div class="embed-fallback-notice">
+            <span><i class="fas fa-info-circle"></i> Catatan: Jika pratinjau dokumen tertahan oleh pembatasan akses browser, silakan klik tombol <strong>"Buka Google Drive"</strong> di atas.</span>
+            <button class="btn-embed-action" onclick="openEmbedModal('https://drive.google.com/file/d/1q57QLZTQEGyh1rsbnitOtYeuLWUambjP/preview', 'Modul Ajar Topik 3', 'https://drive.google.com/file/d/1q57QLZTQEGyh1rsbnitOtYeuLWUambjP/view?usp=sharing')">
+              <i class="fas fa-expand"></i> Mode Layar Penuh
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------
+           PANEL 2: LKPD TOPIK 3
+           ------------------------------------------------------------- -->
+      <div class="artefact-panel" id="t3-lkpd">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>LKPD dirancang untuk melatih kemampuan peserta didik dalam menyimpulkan isi teks deskripsi melalui tiga aktivitas terstruktur:</p>
+              <ul style="padding-left:1.25rem; font-size:0.9rem;">
+                <li>Menemukan kalimat simpulan dalam paragraf</li>
+                <li>Menyusun simpulan berdasarkan hubungan sebab-akibat</li>
+                <li>Menggabungkan ide pokok setiap paragraf menjadi simpulan utuh tentang Sroto Sokaraja.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>LKPD menggunakan teks kontekstual tentang kuliner khas Banyumas yang sangat dekat dengan lingkungan keseharian peserta didik.</p>
+              <p>Aktivitas disusun secara bertahap dari mengidentifikasi informasi hingga menyusun simpulan menggunakan kalimat sendiri. Tersedia tabel sebab-akibat, tabel ide pokok, serta ruang diskusi kelompok yang membantu peserta didik membandingkan strategi dalam menyimpulkan isi teks dan menentukan simpulan terbaik.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Beberapa pertanyaan masih berfokus pada identifikasi informasi dasar sehingga perlu dikembangkan untuk mendorong penalaran kritis yang lebih mendalam.</p>
+              <p>Pembagian peran dan tanggung jawab setiap anggota kelompok belum dicantumkan secara eksplisit pada instrumen, sehingga partisipasi aktif individu perlu dipastikan selama diskusi berlangsung. Selain itu, kriteria penilaian terhadap kualitas simpulan belum terlihat secara terperinci pada lembar kerja.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini mengacu pada <strong>Taksonomi Bloom Revisi dari Anderson dan Krathwohl</strong> untuk menyusun kegiatan belajar secara bertahap, mulai dari memahami materi, menganalisis informasi, hingga menghasilkan karya atau simpulan. Model <strong>Cooperative Learning dari Johnson dan Johnson</strong> digunakan untuk mendorong peserta didik bekerja sama, saling membantu, dan bertanggung jawab dalam kelompok. Selain itu, <strong>pendekatan literasi membaca</strong> diterapkan untuk melatih peserta didik menemukan ide pokok, memahami hubungan antar-informasi, dan membuat simpulan berdasarkan fakta yang terdapat dalam teks.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Anderson & Krathwohl</span>
+                <span class="theory-pill">Johnson & Johnson (Cooperative)</span>
+                <span class="theory-pill">Literasi Membaca</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Frame Embed LKPD -->
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-pdf"><i class="fas fa-clipboard-check"></i></div>
+              <div class="embed-meta-text">
+                <h4>Lembar Kerja Peserta Didik (LKPD): Menyimpulkan Teks Deskripsi</h4>
+                <span>Format Dokumen Google Drive · Pratinjau Lembar Kerja Aktivitas Siswa</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <button class="btn-embed-action" onclick="copyLinkToClipboard('https://drive.google.com/file/d/1BCU166WPK9YBreSA4yez5xCPkMmvNVaE/view?usp=sharing', this)">
+                <i class="fas fa-copy"></i> Salin Tautan
+              </button>
+              <a href="https://drive.google.com/file/d/1BCU166WPK9YBreSA4yez5xCPkMmvNVaE/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1BCU166WPK9YBreSA4yez5xCPkMmvNVaE/preview" title="LKPD Topik 3" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------
+           PANEL 3: MEDIA PEMBELAJARAN PPT TOPIK 3
+           ------------------------------------------------------------- -->
+      <div class="artefact-panel" id="t3-media">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>Media digunakan untuk menjelaskan materi <strong>Menyimpulkan Isi Teks Deskripsi</strong> melalui contoh kontekstual kuliner lokal <strong>Sroto Sokaraja</strong>, memandu peserta didik memahami alur berpikir dari kalimat penjelas menuju simpulan utuh.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Materi sangat relevan dengan LKPD, kontekstual, dan efektif membantu peserta didik memahami langkah-langkah konkret menyusun simpulan secara visual dan sistematis.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Keseimbangan antara elemen visual dan teks perlu terus dioptimalkan agar informasi mudah dipahami seketika dan slide tidak terkesan terlalu padat <em>(overcrowded)</em>.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini menggunakan <strong>prinsip pembelajaran multimedia dari Mayer</strong>, yaitu menggabungkan gambar dan teks agar peserta didik lebih mudah memahami materi. <strong>Teori Beban Kognitif (Cognitive Load Theory) dari Sweller</strong> juga diterapkan dengan menyajikan informasi secara sederhana dan terarah agar peserta didik tidak kesulitan memahami materi. Selain itu, konsep <strong>Advance Organizer dari Ausubel</strong> digunakan untuk menghubungkan pengetahuan awal peserta didik tentang kuliner lokal dengan materi baru, yaitu struktur teks deskripsi, sehingga mereka lebih mudah memahami dan menyusun teks deskripsi.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Richard Mayer (Multimedia)</span>
+                <span class="theory-pill">Sweller (Cognitive Load)</span>
+                <span class="theory-pill">Ausubel (Advance Organizer)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Frame Embed PPT -->
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-ppt"><i class="fas fa-file-powerpoint"></i></div>
+              <div class="embed-meta-text">
+                <h4>Media Pembelajaran Interaktif (PPT): Teks Deskripsi Sroto Sokaraja</h4>
+                <span>Google Slides Presentation · Media Visual Pembelajaran Kelas VII</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://docs.google.com/presentation/d/1kEUufbrkDlJ51Nz7wrGsA2i3UvDxH0aP/edit?usp=sharing&ouid=112622085555098819629&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Slides
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://docs.google.com/presentation/d/1kEUufbrkDlJ51Nz7wrGsA2i3UvDxH0aP/embed" title="Media Pembelajaran Topik 3" loading="lazy" allowfullscreen="true"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------
+           PANEL 4: VIDEO PRAKTIK MENGAJAR TOPIK 3 (YouTube Embed)
+           ------------------------------------------------------------- -->
+      <div class="artefact-panel" id="t3-video">
+        <div class="embed-showcase-box" style="margin-top:0;">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-video" style="background:rgba(255,0,0,0.1); color:#FF0000;"><i class="fab fa-youtube"></i></div>
+              <div class="embed-meta-text">
+                <h4>Video Pelaksanaan Praktik Mengajar Topik 3 — SMPN 5 Purwokerto</h4>
+                <span>Pembelajaran Problem Based Learning (PBL) Materi Menyimpulkan Isi Teks Deskripsi (Sroto Sokaraja)</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://youtu.be/mV24f4tHXQA?si=Amr_XpaOFdDnNIdC" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link" style="background:#CC0000; border-color:#CC0000;">
+                <i class="fab fa-youtube"></i> Tonton di YouTube
+              </a>
+            </div>
+          </div>
+
+          <!-- YouTube Embed Video Player -->
+          <div class="embed-iframe-wrapper" style="height:520px; background:#000;">
+            <iframe src="https://www.youtube.com/embed/mV24f4tHXQA" title="Video Praktik Mengajar Topik 3 - Syahla Ayu Yasinta" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="embed-fallback-notice">
+            <span><i class="fas fa-check-circle" style="color:#2F7A50;"></i> Video menampilkan orientasi masalah kuliner lokal Sroto Sokaraja, pembagian kelompok berdiferensiasi, pendampingan scaffolding guru, dan presentasi simpulan teks deskripsi peserta didik.</span>
+            <span style="font-size:0.78rem; font-weight:600; color:var(--primary);">Praktik Mandiri Kelas VII</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------
+           PANEL 5: KEGIATAN NON-MENGAJAR (EKSTRAKURIKULER KREATIO)
+           ------------------------------------------------------------- -->
+      <div class="artefact-panel" id="t3-nonajar">
+        <div class="analysis-card" style="margin-bottom:1.75rem;">
+          <div class="analysis-header">
+            <div class="analysis-header-title">
+              <i class="fas fa-hands-helping" style="color:var(--primary);"></i> Analisis Kegiatan Non-Mengajar: Ekstrakurikuler Kreativo
+            </div>
+            <span class="analysis-badge badge-konteks">Kegiatan Sekolah Mitra</span>
+          </div>
+          <div class="analysis-content" style="font-size:0.96rem; line-height:1.75;">
+            <p>
+              <strong>Pendampingan ekstrakurikuler Kreativo</strong> dilaksanakan secara rutin setiap hari Rabu mulai pukul 13.40 WIB sampai selesai di SMP Negeri 5 Purwokerto. Kegiatan ini berfokus pada pembuatan konten kreatif sekolah, seperti konten edukasi, dokumentasi kegiatan sekolah, peliputan jurnalistik sekolah, dan pembuatan video interaktif.
+            </p>
+            <p>
+              Dalam kegiatan ini, saya mendampingi murid dalam menentukan ide, merencanakan konsep naskah/storyboard, dan melaksanakan proses pembuatan serta penyuntingan konten agar mereka dapat mengembangkan kreativitas, keterampilan berkomunikasi di depan kamera, serta kepercayaan diri dalam menghasilkan karya literasi digital yang bermartabat.
+            </p>
+          </div>
+        </div>
+
+        <!-- Dokumentasi Foto Kegiatan Non-Mengajar (Ekstrakurikuler Kreativo - 2 Foto) -->
+        <div class="embed-showcase-box" style="margin-top:0;">
+          <div class="embed-top-bar" style="margin-bottom:1.25rem;">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge" style="background:rgba(52,72,60,0.1); color:var(--primary);"><i class="fas fa-camera-retro"></i></div>
+              <div class="embed-meta-text">
+                <h4>Dokumentasi Pendampingan Ekstrakurikuler Kreativo</h4>
+                <span>Bimbingan Konsep Naskah, Konten Edukasi, dan Penayangan Karya Digital Peserta Didik SMPN 5 Purwokerto</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dual Grid Foto Dokumentasi Non-Mengajar -->
+          <div class="nonajar-dual-grid">
+            
+            <!-- Foto 1: Bimbingan & Diskusi Kelompok -->
+            <div class="nonajar-photo-card">
+              <div class="nonajar-photo-img-wrap">
+                <img src="Foto Non Mengajar 1.jpg" alt="Dokumentasi Bimbingan dan Diskusi Kreativo SMPN 5 Purwokerto">
+              </div>
+              <div class="nonajar-card-footer">
+                <a href="Foto Non Mengajar 1.jpg" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                  <i class="fas fa-expand"></i> Buka Foto Penuh
+                </a>
+              </div>
+            </div>
+
+            <!-- Foto 2: Penayangan Media / Presentasi Interaktif -->
+            <div class="nonajar-photo-card">
+              <div class="nonajar-photo-img-wrap">
+                <img src="Foto Non Mengajar 2.jpg" alt="Dokumentasi Penayangan Karya Digital Kreativo SMPN 5 Purwokerto">
+              </div>
+              <div class="nonajar-card-footer">
+                <a href="Foto Non Mengajar 2.jpg" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                  <i class="fas fa-expand"></i> Buka Foto Penuh
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- -------------------------------------------------------------
+           PANEL 6: PENILAIAN GURU PAMONG TOPIK 3
+           ------------------------------------------------------------- -->
+      <div class="artefact-panel" id="t3-pamong">
+        <div class="pamong-dual-grid">
+          
+          <!-- Penilaian Perangkat Pembelajaran -->
+          <div class="embed-showcase-box" style="margin-top:0;">
+            <div class="embed-top-bar">
+              <div class="embed-doc-info">
+                <div class="embed-icon-badge icon-eval"><i class="fas fa-clipboard-check"></i></div>
+                <div class="embed-meta-text">
+                  <h4>Penilaian Perangkat Pembelajaran</h4>
+                  <span>Evaluasi Guru Pamong terhadap Modul Ajar</span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1H1cnIBEVFj2Ldbi3jS3M-CQoZ4yZTowa/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+            <div class="embed-iframe-wrapper" style="height:420px;">
+              <iframe src="https://drive.google.com/file/d/1H1cnIBEVFj2Ldbi3jS3M-CQoZ4yZTowa/preview" title="Penilaian Perangkat Topik 3" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <!-- Penilaian Praktik Mengajar -->
+          <div class="embed-showcase-box" style="margin-top:0;">
+            <div class="embed-top-bar">
+              <div class="embed-doc-info">
+                <div class="embed-icon-badge icon-eval"><i class="fas fa-user-check"></i></div>
+                <div class="embed-meta-text">
+                  <h4>Penilaian Praktik Mengajar</h4>
+                  <span>Evaluasi Guru Pamong terhadap Praktik di Kelas</span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1hD_GpBu2bB4vqtfSwX_iAkAggro6oF2T/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+            <div class="embed-iframe-wrapper" style="height:420px;">
+              <iframe src="https://drive.google.com/file/d/1hD_GpBu2bB4vqtfSwX_iAkAggro6oF2T/preview" title="Penilaian Praktik Topik 3" loading="lazy"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===============================================================
+         BAGIAN 5: UTS — SHOWCASE PRAKTIK PEMBELAJARAN
+         =============================================================== -->
+    <section class="portfolio-section" id="uts">
+      <!-- Horizontal Green Accent Bar -->
+      <div class="green-horizontal-bar"></div>
+
+      <div class="section-intro-header">
+        <span class="section-tagline"><i class="fas fa-star"></i> Showcase Praktik Pembelajaran</span>
+        <h2 class="section-main-title">UTS: SHOWCASE PRAKTIK PEMBELAJARAN</h2>
+        <div class="editorial-batik-divider">
+          <div class="line"></div>
+          <div class="symbol"><i class="fas fa-feather"></i></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-sub-desc">
+          Karya Terbaik Praktik Mengajar Mandiri Kelas VII di SMPN 5 Purwokerto: <strong>Menyempurnakan dan Menyunting Teks Deskripsi melalui Jurnal CERITA dan Kartu Editor Teman</strong> dengan Prinsip Deep Learning.
+        </p>
+      </div>
+
+      <!-- Sub-Navigation Pills Artefak UTS (Bersih Tanpa Nomor) -->
+      <div class="artefact-subnav-wrapper">
+        <button class="subnav-btn active" data-panel="uts-modul">
+          <i class="fas fa-file-alt"></i> Modul Ajar (Jurnal CERITA)
+        </button>
+        <button class="subnav-btn" data-panel="uts-lkpd">
+          <i class="fas fa-clipboard-list"></i> LKPD Kelompok & Teks Final
+        </button>
+        <button class="subnav-btn" data-panel="uts-media">
+          <i class="fas fa-tv"></i> Media Pembelajaran (PPT)
+        </button>
+        <button class="subnav-btn" data-panel="uts-video">
+          <i class="fab fa-youtube" style="color:#FF0000;"></i> Video Praktik (YouTube)
+        </button>
+        <button class="subnav-btn" data-panel="uts-pamong">
+          <i class="fas fa-check-double"></i> Penilaian Guru Pamong
+        </button>
+      </div>
+
+      <!-- PANEL 1 UTS: MODUL AJAR SIKLUS 1 -->
+      <div class="artefact-panel active-panel" id="uts-modul">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran Bahasa Indonesia kelas VII di SMP Negeri 5 Purwokerto berfokus pada kegiatan <strong>menyempurnakan dan menyunting teks deskripsi</strong>.</p>
+              <p>Melalui model Problem Based Learning (PBL), peserta didik menelaah kembali draf teks, mengidentifikasi bagian yang perlu diperbaiki, memanfaatkan masukan rekan sejawat, dan menghasilkan teks deskripsi final melalui <strong>Jurnal CERITA</strong>.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Rancangan pembelajaran menghubungkan materi secara langsung dengan karya autentik yang telah dibuat peserta didik sehingga kegiatan penyuntingan terasa lebih kontekstual.</p>
+              <p>Penggunaan contoh teks konkret, <strong>Kartu Editor Teman</strong>, diskusi kolaboratif, dan umpan balik timbal-balik membantu peserta didik menemukan serta memperbaiki kesalahan isi maupun kaidah kebahasaan. Kegiatan ini berhasil mengembangkan penalaran kritis, kolaborasi, kemandirian, dan etika komunikasi.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Kegiatan penyuntingan membutuhkan ketelitian dan pemahaman kaidah kebahasaan (PUEBI/EYD) yang cukup mendalam.</p>
+              <p>Peserta didik yang masih kesulitan membedakan letak kesalahan dan menentukan formulasi perbaikannya memerlukan pendampingan individual yang lebih intensif. Oleh karena itu, kejelasan instruksi, kecukupan alokasi waktu, dan pemerataan keterlibatan setiap peserta didik perlu terus dipantau.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran menggunakan model <strong>Problem Based Learning (PBL)</strong> dengan prinsip <strong>Deep Learning (Mindful, Meaningful, dan Joyful)</strong>. Diskusi dan umpan balik teman mendukung pembelajaran kolaboratif, sedangkan kegiatan menelaah, merevisi, dan membaca kembali teks memberikan ruang bagi peserta didik untuk mengevaluasi serta memperbaiki hasil tulisannya secara bertahap.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">PBL (Arends)</span>
+                <span class="theory-pill">Deep Learning (Mindful, Meaningful, Joyful)</span>
+                <span class="theory-pill">Peer Feedback & Scaffolding</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-pdf"><i class="fas fa-file-pdf"></i></div>
+              <div class="embed-meta-text">
+                <h4>Modul Ajar Siklus 1: Menyempurnakan Teks Deskripsi (Jurnal CERITA)</h4>
+                <span>Format PDF · Praktik Mengajar Mandiri Siklus 1 di SMPN 5 Purwokerto</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://drive.google.com/file/d/1AQS0y695Nvhc30rGrIV-NbYo-ZGdgKar/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1AQS0y695Nvhc30rGrIV-NbYo-ZGdgKar/preview" title="Modul Ajar Siklus 1" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 2 UTS: LKPD SIKLUS 1 -->
+      <div class="artefact-panel" id="uts-lkpd">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>LKPD kelompok digunakan untuk menyunting teks deskripsi dengan memperbaiki isi, ejaan, tanda baca, pilihan kata (diksi), kalimat efektif, dan struktur teks deskripsi.</p>
+              <p>Sementara itu, lembar <strong>Teks Final & Refleksi Akhir</strong> dikerjakan secara individu untuk menulis ulang dan menyempurnakan karya berdasarkan masukan yang diperoleh dari rekan kelompok.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>LKPD kelompok efektif mendorong kolaborasi, diskusi kritis, dan ketelitian antarpeserta didik dalam menemukan kesalahan kebahasaan.</p>
+              <p>Lembar individu memberikan ruang leluasa bagi peserta didik untuk menghasilkan teks final secara mandiri dan menginternalisasi hasil perbaikan yang telah disepakati bersama.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>LKPD kelompok memerlukan pendampingan aktif guru agar setiap anggota kelompok berkontribusi proporsional dan memiliki pemahaman standar yang sama tentang kaidah penyuntingan.</p>
+              <p>Pada lembar individu, peserta didik yang belum sepenuhnya memahami masukan teman mungkin masih menemui kendala dalam merevisi tulisannya secara mandiri tanpa bantuan langsung guru.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini menggunakan <strong>pendekatan proses menulis (Process Writing Approach)</strong>, yaitu menulis dilakukan melalui beberapa tahap, mulai dari membuat draf, memperbaiki isi tulisan, mengoreksi kesalahan, hingga memublikasikan hasil tulisan. <strong>Pembelajaran kolaboratif (Collaborative Learning)</strong> juga diterapkan agar peserta didik dapat bekerja sama, bertukar ide, dan saling memberikan masukan. Selain itu, <strong>asesmen formatif melalui umpan balik dan revisi</strong> digunakan untuk membantu peserta didik mengetahui kekurangan tulisannya, memperbaikinya berdasarkan saran yang diberikan, dan menghasilkan tulisan yang lebih baik.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Process Writing Approach</span>
+                <span class="theory-pill">Collaborative Learning</span>
+                <span class="theory-pill">Umpan Balik Formatif</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-pdf"><i class="fas fa-clipboard-check"></i></div>
+              <div class="embed-meta-text">
+                <h4>LKPD Kelompok & Lembar Teks Final Siklus 1</h4>
+                <span>Format Dokumen Google Drive · Instrumen Penyuntingan & Refleksi Mandiri</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://drive.google.com/file/d/1pTI_M2y0rXhGJ58fGbNfpMt9-c-unG1l/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1pTI_M2y0rXhGJ58fGbNfpMt9-c-unG1l/preview" title="LKPD Siklus 1" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 3 UTS: PPT SIKLUS 1 -->
+      <div class="artefact-panel" id="uts-media">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>PPT digunakan untuk membantu peserta didik kelas VII memahami kaidah menyunting dan menyempurnakan teks deskripsi melalui sajian materi terstruktur, contoh kesalahan kalimat nyata, komparasi perbaikan kalimat, serta panduan teknis revisi draf berlandaskan masukan rekan sejawat.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Materi disajikan secara bertahap dengan contoh <em>sebelum dan sesudah (before-after)</em> perbaikan sehingga sangat mudah dipahami siswa kelas VII.</p>
+              <p>Pertanyaan pemantik dan latihan analisis bersama merangsang nalar kritis, sedangkan integrasi dengan <strong>Jurnal CERITA</strong> membantu peserta didik menerapkan masukan teman untuk memperbaiki tulisannya sendiri.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Materi mencakup beberapa aspek penyuntingan kebahasaan sekaligus (huruf kapital, tanda baca, kata berimbuhan) sehingga berpotensi membebani memori kerja peserta didik jika disajikan terlalu cepat.</p>
+              <p>Perlu penambahan porsi latihan terbimbing langsung di tiap bagian slide sebelum berpindah ke kaidah berikutnya.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini menggunakan <strong>prinsip multimedia dari Mayer</strong>, yaitu menyajikan gambar dan teks yang saling berkaitan serta ditampilkan secara berdekatan dan sesuai urutan agar peserta didik lebih mudah memahami materi. Selain itu, <strong>scaffolding</strong> diterapkan dengan memberikan bantuan secara bertahap dalam proses belajar bahasa, sesuai kebutuhan peserta didik. <strong>Pendekatan proses menulis (Process Writing Approach)</strong> juga digunakan dengan mengajak peserta didik memperbaiki dan menyunting tulisan berdasarkan umpan balik dari guru maupun teman, sehingga mereka dapat menghasilkan tulisan yang lebih baik.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Multimedia Mayer</span>
+                <span class="theory-pill">Scaffolding Bertahap</span>
+                <span class="theory-pill">Process Writing Approach</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-ppt"><i class="fas fa-file-powerpoint"></i></div>
+              <div class="embed-meta-text">
+                <h4>Media Pembelajaran PPT Siklus 1: Menyunting Teks Deskripsi</h4>
+                <span>Google Slides Presentation · Media Visual Interaktif Kelas VII</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://docs.google.com/presentation/d/1D1Yx8_7W5IAwEjUUK-SOuDwj3wY3rpkl/edit?usp=sharing&ouid=112622085555098819629&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Slides
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://docs.google.com/presentation/d/1D1Yx8_7W5IAwEjUUK-SOuDwj3wY3rpkl/embed" title="PPT Siklus 1" loading="lazy" allowfullscreen="true"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 4 UTS: VIDEO YOUTUBE SIKLUS 1 -->
+      <div class="artefact-panel" id="uts-video">
+        <div class="embed-showcase-box" style="margin-top:0;">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-video" style="background:rgba(255,0,0,0.1); color:#FF0000;"><i class="fab fa-youtube"></i></div>
+              <div class="embed-meta-text">
+                <h4>Video Pelaksanaan Praktik Mengajar Siklus 1 — SMPN 5 Purwokerto</h4>
+                <span>Rekaman Pembelajaran Autentik Bahasa Indonesia di Kelas VII SMPN 5 Purwokerto</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://youtu.be/Eur1g5wi-FY?si=PzyOt2gtg3b02Q8K" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link" style="background:#CC0000; border-color:#CC0000;">
+                <i class="fab fa-youtube"></i> Tonton di YouTube
+              </a>
+            </div>
+          </div>
+
+          <!-- YouTube Embed Video Player -->
+          <div class="embed-iframe-wrapper" style="height:520px; background:#000;">
+            <iframe src="https://www.youtube.com/embed/Eur1g5wi-FY" title="Video Praktik Mengajar Siklus 1 - Syahla Ayu Yasinta" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <div class="embed-fallback-notice">
+            <span><i class="fas fa-check-circle" style="color:#2F7A50;"></i> Video menampilkan interaksi pembuka, apersepsi kontekstual, diskusi kelompok Jurnal CERITA, pendampingan scaffolding guru, dan refleksi penutup.</span>
+            <span style="font-size:0.78rem; font-weight:600; color:var(--primary);">Durasi Pembelajaran Efektif</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 5 UTS: PENILAIAN GURU PAMONG SIKLUS 1 -->
+      <div class="artefact-panel" id="uts-pamong">
+        <div class="pamong-dual-grid">
+          
+          <!-- Penilaian Perangkat Pembelajaran Siklus 1 -->
+          <div class="embed-showcase-box" style="margin-top:0;">
+            <div class="embed-top-bar">
+              <div class="embed-doc-info">
+                <div class="embed-icon-badge icon-eval"><i class="fas fa-clipboard-check"></i></div>
+                <div class="embed-meta-text">
+                  <h4>Penilaian Perangkat Pembelajaran Siklus 1</h4>
+                  <span>Evaluasi Guru Pamong terhadap Modul & Instrumen Siklus 1</span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1MV-8jNgc_hwp5e11UqWbHENSb7AD8sND/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+            <div class="embed-iframe-wrapper" style="height:460px;">
+              <iframe src="https://drive.google.com/file/d/1MV-8jNgc_hwp5e11UqWbHENSb7AD8sND/preview" title="Penilaian Perangkat Siklus 1" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <!-- Penilaian Praktik Mengajar Siklus 1 -->
+          <div class="embed-showcase-box" style="margin-top:0;">
+            <div class="embed-top-bar">
+              <div class="embed-doc-info">
+                <div class="embed-icon-badge icon-eval"><i class="fas fa-user-check"></i></div>
+                <div class="embed-meta-text">
+                  <h4>Penilaian Praktik Mengajar Siklus 1</h4>
+                  <span>Evaluasi Guru Pamong terhadap Praktik Mengajar Siklus 1 UTS</span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1OhjQX2q7kx_bsqMa9LVBv7aG71D6v5H7/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+            <div class="embed-iframe-wrapper" style="height:460px;">
+              <iframe src="https://drive.google.com/file/d/1OhjQX2q7kx_bsqMa9LVBv7aG71D6v5H7/preview" title="Penilaian Praktik Siklus 1 UTS" loading="lazy"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===============================================================
+         BAGIAN 6: UAS — EVALUASI AKHIR & PRODUK UNGGULAN
+         =============================================================== -->
+    <section class="portfolio-section" id="uas">
+      <!-- Horizontal Green Accent Bar -->
+      <div class="green-horizontal-bar"></div>
+
+      <div class="section-intro-header">
+        <span class="section-tagline"><i class="fas fa-award"></i> Evaluasi Akhir & Produk Unggulan</span>
+        <h2 class="section-main-title">UAS: EVALUASI AKHIR & PRODUK UNGGULAN</h2>
+        <div class="editorial-batik-divider">
+          <div class="line"></div>
+          <div class="symbol"><i class="fas fa-wand-magic-sparkles"></i></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-sub-desc">
+          Perkembangan & Inovasi Pembelajaran Lanjutan: <strong>Menangkap Pesan Cerita Fantasi melalui Kegiatan Menyimak Berbasis Audiovisual & TPACK</strong> di SMP Negeri 5 Purwokerto.
+        </p>
+      </div>
+
+      <!-- Sub-Navigation Pills Artefak UAS (Bersih Tanpa Nomor) -->
+      <div class="artefact-subnav-wrapper">
+        <button class="subnav-btn active" data-panel="uas-modul">
+          <i class="fas fa-file-alt"></i> Modul Ajar (Menyimak Fantasi)
+        </button>
+        <button class="subnav-btn" data-panel="uas-lkpd">
+          <i class="fas fa-clipboard-list"></i> LKPD Pembuktian Pesan
+        </button>
+        <button class="subnav-btn" data-panel="uas-media">
+          <i class="fas fa-tv"></i> Media PPT & TPACK
+        </button>
+        <button class="subnav-btn" data-panel="uas-video">
+          <i class="fas fa-video"></i> Video Praktik (GDrive)
+        </button>
+        <button class="subnav-btn" data-panel="uas-pamong">
+          <i class="fas fa-check-double"></i> Penilaian Guru Pamong
+        </button>
+      </div>
+
+      <!-- PANEL 1 UAS: MODUL AJAR SIKLUS 2–4 -->
+      <div class="artefact-panel active-panel" id="uas-modul">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran menggunakan kegiatan menyimak cerita fantasi untuk membantu peserta didik kelas VII menentukan pesan atau amanat cerita secara tepat.</p>
+              <p>Kegiatan didukung PPT interaktif, video cerita fantasi, LKM kelompok, dan <strong>kartu peran</strong> untuk membagi tanggung jawab anggota kelompok secara terstruktur.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Perencanaan menggabungkan media audiovisual dengan diskusi kolaboratif sehingga peserta didik dapat memahami cerita melalui alur, tindakan tokoh, masalah, dan resolusi cerita.</p>
+              <p>Kartu peran membantu membagi tugas secara terstruktur, sedangkan LKM mengarahkan peserta didik menyajikan <strong>bukti peristiwa konkret</strong> dalam teks cerita sebagai dasar penarikan amanat moral.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Peserta didik berpotensi kesulitan membedakan antara rumusan amanat dengan ringkasan alur cerita, atau kesulitan menentukan pesan yang didukung bukti peristiwa valid.</p>
+              <p>Oleh karena itu, diperlukan pertanyaan penuntun bertingkat dan pemodelan konkret dari guru agar peserta didik dapat mengaitkan tindakan tokoh dengan pesan kehidupan secara jernih.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p><strong>Pembelajaran Menyimak Reseptif-Kritis</strong> untuk memahami pesan dalam teks narasi; <strong>Cooperative Learning</strong> untuk mendukung kolaborasi dan pembagian peran; serta <strong>Prinsip Multimedia Mayer</strong> untuk mengoptimalkan paduan video animasi narasi, audio dialog, dan teks visual dalam menstimulasi pemahaman mendalam.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Menyimak Kritis Narasi</span>
+                <span class="theory-pill">Cooperative Learning</span>
+                <span class="theory-pill">Multimedia Mayer</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-pdf"><i class="fas fa-file-pdf"></i></div>
+              <div class="embed-meta-text">
+                <h4>Modul Ajar Siklus Lanjutan: Menyimak Cerita Fantasi & Menemukan Amanat</h4>
+                <span>Format PDF · Inovasi Pembelajaran Bahasa Indonesia Kelas VII</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://drive.google.com/file/d/1xq0AfESw-R3vIQPa4OrutpWN-mu8Oqoj/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1xq0AfESw-R3vIQPa4OrutpWN-mu8Oqoj/preview" title="Modul UAS Siklus 2-4" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 2 UAS: LKPD SIKLUS 2–4 -->
+      <div class="artefact-panel" id="uas-lkpd">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>Membantu peserta didik kelas VII menemukan amanat cerita fantasi melalui kegiatan menyimak audiovisual.</p>
+              <p>Peserta didik menganalisis tokoh, konflik masalah, keputusan tindakan tokoh, dan resolusi penyelesaian cerita, kemudian merumuskan amanat, membuktikan peristiwa teks yang mendasari jawaban, serta menghubungkannya dengan konteks kehidupan sehari-hari siswa.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Memiliki alur aktivitas yang sangat sistematis, bertolak dari pembedahan unsur intrinsik hingga penarikan simpulan amanat moral.</p>
+              <p>Bagian pembuktian peristiwa menghindarkan peserta didik dari sekadar menebak-nebak jawaban. Kegiatan kelompok memupuk gotong royong, sedangkan rubrik cek hasil kelompok mendukung evaluasi metakognitif siswa.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Peserta didik yang belum terbiasa menyimak cerita narasi kompleks berpotensi kesulitan merekam detail peristiwa berurutan.</p>
+              <p>Kolom isian pada lembar fisik perlu dirancang lebih leluasa agar tim siswa tidak terbatas ruang dalam memaparkan argumen pembuktian mereka secara rinci.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini menggunakan <strong>model Cooperative Learning</strong> untuk melatih peserta didik bekerja sama dan bertanggung jawab dalam kelompok. <strong>Taksonomi Bloom</strong> digunakan untuk mengembangkan kemampuan berpikir peserta didik, terutama dalam menganalisis informasi dan menarik simpulan. Selain itu, <strong>prinsip Constructive Alignment dari Biggs</strong> diterapkan dengan menyelaraskan tujuan pembelajaran, kegiatan dalam LKPD, dan penilaian agar semuanya saling mendukung dalam membantu peserta didik menentukan amanat cerita berdasarkan bukti peristiwa dalam teks.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Cooperative Learning</span>
+                <span class="theory-pill">Taksonomi Bloom</span>
+                <span class="theory-pill">Constructive Alignment (Biggs)</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-pdf"><i class="fas fa-clipboard-check"></i></div>
+              <div class="embed-meta-text">
+                <h4>LKPD: Menangkap Pesan Cerita Fantasi & Pembuktian Fakta</h4>
+                <span>Instrumen Asesmen Autentik Siswa Kelas VII SMPN 5 Purwokerto</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://drive.google.com/file/d/1QPrlevitUeWp0OyaQPO96h_GYgRy8Yng/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1QPrlevitUeWp0OyaQPO96h_GYgRy8Yng/preview" title="LKPD UAS Siklus 2-4" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 3 UAS: PPT SIKLUS 2–4 -->
+      <div class="artefact-panel" id="uas-media">
+        <div class="analysis-quad-grid">
+          
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-bullseye" style="color:var(--primary);"></i> Konteks & Tujuan
+              </div>
+              <span class="analysis-badge badge-konteks">Latar Pembelajaran</span>
+            </div>
+            <div class="analysis-content">
+              <p>Media berupa PPT interaktif untuk pembelajaran Bahasa Indonesia kelas VII tentang <strong>Menangkap Pesan Cerita Fantasi melalui Kegiatan Menyimak</strong>.</p>
+              <p>Media bertujuan membantu siswa membedakan amanat tersurat dan tersirat melalui analisis komparatif karakter tokoh, dinamika masalah, tindakan, dan pesan moral.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-star" style="color:#2F7A50;"></i> Kelebihan & Kekuatan
+              </div>
+              <span class="analysis-badge badge-kelebihan">Kelebihan Rancangan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Tampilan visual memikat dan selaras dengan tema fantasi yang digemari remaja. Materi disusun secara bertahap, dilengkapi video cerita <em>"Rara dan Selendang Ajaib"</em> serta <em>"Bola-Bola Waktu"</em>, kuis interaktif, dan panduan LKM kelompok.</p>
+              <p>Contoh cerita yang dekat dengan nilai moral kehidupan nyata memudahkan siswa menginternalisasi amanat.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-exclamation-triangle" style="color:var(--accent-terracotta);"></i> Kekurangan & Evaluasi
+              </div>
+              <span class="analysis-badge badge-kekurangan">Area Peningkatan</span>
+            </div>
+            <div class="analysis-content">
+              <p>Beberapa slide memiliki teks yang relatif kecil sehingga berpotensi kurang terbaca oleh siswa di barisan belakang kelas.</p>
+              <p>Aktivitas menyimak juga sangat bergantung pada stabilitas perangkat audio proyektor. Selain itu, porsi penjelasan guru pada slide konsep dapat diperingkas dengan memperbanyak pertanyaan pemantik langsung.</p>
+            </div>
+          </div>
+
+          <div class="analysis-card">
+            <div class="analysis-header">
+              <div class="analysis-header-title">
+                <i class="fas fa-graduation-cap" style="color:var(--accent-burgundy);"></i> Kajian Teori Pedagogik
+              </div>
+              <span class="analysis-badge badge-teori">Landasan Ilmiah</span>
+            </div>
+            <div class="analysis-content">
+              <p>Pembelajaran ini menggunakan <strong>prinsip multimedia dari Mayer</strong> dengan menggabungkan teks, gambar atau ilustrasi fantasi, dan audio narasi agar peserta didik lebih mudah memahami cerita. <strong>Teori Beban Kognitif (Cognitive Load Theory) dari Sweller</strong> diterapkan dengan menyajikan materi secara bertahap dan terpisah ke dalam bagian-bagian kecil agar peserta didik tidak merasa kesulitan memahami informasi. Selain itu, <strong>pendekatan TPACK (Technological Pedagogical Content Knowledge)</strong> diterapkan dengan memadukan teknologi digital, strategi mengajar keterampilan menyimak, dan materi sastra berupa cerita fantasi agar pembelajaran lebih menarik dan efektif.</p>
+              <div class="theory-pills-wrap">
+                <span class="theory-pill">Multimedia Mayer</span>
+                <span class="theory-pill">Sweller (Cognitive Load)</span>
+                <span class="theory-pill">Pendekatan TPACK</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="embed-showcase-box">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-ppt"><i class="fas fa-file-powerpoint"></i></div>
+              <div class="embed-meta-text">
+                <h4>Media PPT Interaktif: Cerita Fantasi "Rara" & "Bola-Bola Waktu"</h4>
+                <span>Media Visual TPACK Berbasis Google Drive / Slides · Menyimak Amanat Kelas VII</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://drive.google.com/file/d/1jjc_KUMrAy2ChAwYOr6mvE-1_KF4fc0r/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper">
+            <iframe src="https://drive.google.com/file/d/1jjc_KUMrAy2ChAwYOr6mvE-1_KF4fc0r/preview" title="PPT Cerita Fantasi - UAS" loading="lazy" allowfullscreen="true"></iframe>
+          </div>
+
+          <div class="embed-fallback-notice">
+            <span><i class="fas fa-info-circle"></i> Catatan: Jika pratinjau tertahan oleh izin browser, silakan klik tombol <strong>"Buka Google Drive"</strong> di atas.</span>
+            <button class="btn-embed-action" onclick="openEmbedModal('https://drive.google.com/file/d/1jjc_KUMrAy2ChAwYOr6mvE-1_KF4fc0r/preview', 'PPT Cerita Fantasi - Syahla Ayu Yasinta', 'https://drive.google.com/file/d/1jjc_KUMrAy2ChAwYOr6mvE-1_KF4fc0r/view?usp=sharing')">
+              <i class="fas fa-expand"></i> Mode Layar Penuh
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 4 UAS: VIDEO PRAKTIK GDrive -->
+      <div class="artefact-panel" id="uas-video">
+        <div class="embed-showcase-box" style="margin-top:0;">
+          <div class="embed-top-bar">
+            <div class="embed-doc-info">
+              <div class="embed-icon-badge icon-video"><i class="fas fa-play"></i></div>
+              <div class="embed-meta-text">
+                <h4>Video Praktik Mengajar Siklus Lanjutan (Google Drive)</h4>
+                <span>Dokumentasi Pelaksanaan Pembelajaran Menyimak Cerita Fantasi di SMPN 5 Purwokerto</span>
+              </div>
+            </div>
+            <div class="embed-actions-group">
+              <a href="https://drive.google.com/file/d/1B26o__3nIwe7nHzR4abeHmmg0qpwQn1k/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka di Google Drive
+              </a>
+            </div>
+          </div>
+
+          <div class="embed-iframe-wrapper" style="height:520px; background:#111;">
+            <iframe src="https://drive.google.com/file/d/1B26o__3nIwe7nHzR4abeHmmg0qpwQn1k/preview" title="Video Praktik Mengajar UAS" loading="lazy" allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- PANEL 5 UAS: PENILAIAN GURU PAMONG SIKLUS 2–4 -->
+      <div class="artefact-panel" id="uas-pamong">
+        <div class="pamong-dual-grid">
+          
+          <div class="embed-showcase-box" style="margin-top:0;">
+            <div class="embed-top-bar">
+              <div class="embed-doc-info">
+                <div class="embed-icon-badge icon-eval"><i class="fas fa-clipboard-check"></i></div>
+                <div class="embed-meta-text">
+                  <h4>Penilaian Perangkat Pembelajaran</h4>
+                  <span>Evaluasi Perangkat Siklus Lanjutan oleh Guru Pamong</span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1VAOO19KGvqXbvMBjz0vRGkHJcKxp_GaX/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+            <div class="embed-iframe-wrapper" style="height:420px;">
+              <iframe src="https://drive.google.com/file/d/1VAOO19KGvqXbvMBjz0vRGkHJcKxp_GaX/preview" title="Penilaian Perangkat UAS" loading="lazy"></iframe>
+            </div>
+          </div>
+
+          <div class="embed-showcase-box" style="margin-top:0;">
+            <div class="embed-top-bar">
+              <div class="embed-doc-info">
+                <div class="embed-icon-badge icon-eval"><i class="fas fa-user-check"></i></div>
+                <div class="embed-meta-text">
+                  <h4>Penilaian Praktik Mengajar</h4>
+                  <span>Evaluasi Praktik Mengajar Siklus Lanjutan oleh Guru Pamong</span>
+                </div>
+              </div>
+              <a href="https://drive.google.com/file/d/1rB4n1lWLBOKoAAHk_aimFIlqZXj_3aPv/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-embed-action primary-link">
+                <i class="fas fa-external-link-alt"></i> Buka Google Drive
+              </a>
+            </div>
+            <div class="embed-iframe-wrapper" style="height:420px;">
+              <iframe src="https://drive.google.com/file/d/1rB4n1lWLBOKoAAHk_aimFIlqZXj_3aPv/preview" title="Penilaian Praktik UAS" loading="lazy"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===============================================================
+         BAGIAN 7: SINTESIS & PENUTUP (REFLEKSI PUNCAK & APRESIASI)
+         =============================================================== -->
+    <section class="portfolio-section" id="sintesis">
+      <!-- Horizontal Green Accent Bar -->
+      <div class="green-horizontal-bar"></div>
+
+      <div class="section-intro-header">
+        <span class="section-tagline"><i class="fas fa-seedling"></i> Refleksi Transformatif & Penutup</span>
+        <h2 class="section-main-title">SINTESIS & PENUTUP PORTOFOLIO</h2>
+        <div class="editorial-batik-divider">
+          <div class="line"></div>
+          <div class="symbol"><i class="fas fa-feather-alt"></i></div>
+          <div class="line"></div>
+        </div>
+        <p class="section-sub-desc">
+          Refleksi Puncak Transformasi Identitas Calon Guru Bahasa dan Sastra Indonesia, Apresiasi PPL, serta Pemenuhan Standar Portofolio PPG 2026.
+        </p>
+      </div>
+
+      <!-- Banner Utama: Pertanyaan Reflektif Kunci (Teks Rata Kanan-Kiri Rapi) -->
+      <div class="synthesis-lead-banner">
+        <div class="synthesis-question-box" style="max-width:100%;">
+          <div class="synthesis-tag"><i class="fas fa-lightbulb"></i> Pertanyaan Refleksi Inti PPL</div>
+          <h3 style="text-align:center; margin-bottom:1.5rem;">"Bagaimana pengalaman PPL di SMP Negeri 5 Purwokerto membentuk identitas saya sebagai calon guru Bahasa Indonesia yang reflektif, kreatif, dan profesional?"</h3>
+          <div class="synthesis-narrative-text">
+            Praktik Pengalaman Lapangan (PPL) di SMP Negeri 5 Purwokerto menjadi proses bermakna dalam membentuk diri saya sebagai calon guru Bahasa Indonesia. Melalui pengalaman mengajar, saya belajar memahami karakteristik dan kebutuhan murid yang beragam, mengelola kelas, serta merancang pembelajaran yang menarik dan bermakna. Saya mengembangkan media pembelajaran kreatif dan aktivitas interaktif, khususnya pada materi teks deskripsi dan cerita fantasi, agar murid lebih aktif dalam belajar. Berbagai pengalaman dan refleksi selama PPL menyadarkan saya bahwa menjadi guru bukan sekadar menyampaikan materi, melainkan menciptakan pembelajaran yang menyenangkan, inklusif, dan berpihak pada kebutuhan murid. Perjalanan ini mendorong saya untuk terus beradaptasi, berkolaborasi, dan memperbaiki praktik pembelajaran demi membantu murid mengembangkan potensi literasi dan kemampuan berbahasanya.
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Pilar Rubrik Refleksi Mendalam (Tanpa Nomor) -->
+      <div class="rubric-pillars-grid">
+        
+        <div class="pillar-card">
+          <div class="pillar-icon-box"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h4>Model Guru yang Dituju</h4>
+          <p>
+            Mewujudkan sosok pendidik yang tidak sekadar berperan sebagai penyampai materi <em>(instructor)</em>, melainkan sebagai fasilitator peradaban dan sahabat literasi yang menginspirasi, sebagaimana keteladanan profesional yang dicontohkan oleh Guru Pamong di SMP Negeri 5 Purwokerto.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box"><i class="fas fa-heart"></i></div>
+          <h4>Filosofi Mengajar</h4>
+          <p>
+            Berakar pada filosofi Ki Hajar Dewantara: <em>"Menuntun segala kodrat anak agar mencapai keselamatan dan kebahagiaan setinggi-tingginya."</em> Pembelajaran Bahasa Indonesia dirancang berpihak pada murid, kontekstual kearifan lokal Banyumas, dan memerdekakan pemikiran.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box"><i class="fas fa-balance-scale"></i></div>
+          <h4>Kekuatan & Kelemahan</h4>
+          <p>
+            <strong>Kekuatan:</strong> Mampu membuat media pembelajaran audiovisual yang interaktif dengan memadukan teknologi, cara mengajar, dan materi pembelajaran, serta menerapkan pendekatan empati untuk memahami kebutuhan peserta didik.<br><br>
+            <strong>Tantangan:</strong> Mengatur waktu saat diskusi kelompok berlangsung dan memberikan pendampingan lanjutan secara konsisten kepada peserta didik yang membutuhkan waktu lebih lama untuk memahami materi.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box"><i class="fas fa-route"></i></div>
+          <h4>Rencana Tindak Lanjut (RTL)</h4>
+          <p>
+            Meningkatkan kemampuan dalam merancang pembelajaran yang sesuai dengan kebutuhan peserta didik, mengembangkan bahan ajar yang mengangkat budaya dan kearifan lokal Banyumas, serta berbagi pengalaman dan berdiskusi dengan sesama guru Bahasa Indonesia untuk meningkatkan kualitas pembelajaran secara berkelanjutan.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Editorial Card: Kalimat Reflektif Penutup & Galeri Dokumentasi -->
+      <div class="closing-editorial-card">
+        <div class="closing-quote-statement">
+          "Menjadi guru Bahasa Indonesia bukan sekadar mengajarkan cara membaca, menulis, menyimak, dan berbicara, tetapi juga membantu murid menemukan makna, menyampaikan gagasan, serta memahami kehidupan melalui bahasa. Perjalanan PPL mengajarkan saya bahwa setiap murid memiliki karakteristik dan potensi yang berbeda. Tugas saya sebagai pendidik adalah menghadirkan pembelajaran yang kreatif, bermakna, dan berpihak pada murid agar setiap potensi memiliki kesempatan untuk tumbuh dan berkembang."
+        </div>
+
+        <!-- Kolase Foto Lapangan PPL (Foto Bersih Tanpa Keterangan Overlay) -->
+        <div class="closing-photo-gallery">
+          
+          <!-- Foto 3: Interaksi Mengajar di Kelas -->
+          <div class="gallery-photo-item">
+            <img src="Foto 3.jpeg" alt="Praktik Pembelajaran di Kelas VII SMPN 5 Purwokerto">
+          </div>
+
+          <!-- Foto 4: Pendampingan Siswa -->
+          <div class="gallery-photo-item">
+            <img src="Foto 4.jpeg" alt="Pendampingan Peserta Didik SMPN 5 Purwokerto">
+          </div>
+
+          <!-- Foto 1: Profil Calon Guru -->
+          <div class="gallery-photo-item">
+            <img src="Foto 1.jpeg" alt="Syahla Ayu Yasinta, S.Pd.">
+          </div>
+
+        </div>
+
+        <!-- Kartu Identitas Pendidik & Afiliasi -->
+        <div class="closing-identity-badge">
+          <div class="author-name">Syahla Ayu Yasinta, S.Pd.</div>
+          <div class="author-details">
+            Mahasiswa PPG Calon Guru Gelombang 1 Tahun 2026<br>
+            Pendidikan Bahasa dan Sastra Indonesia — <strong>Universitas Muhammadiyah Purwokerto</strong><br>
+            Sekolah Mitra: <strong>SMP Negeri 5 Purwokerto</strong>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ===================================================================
+       BOTTOM NAVIGATION DOCK (KONTROL CEPAT TANPA ANGKA 1/8)
+       =================================================================== -->
+  <div class="bottom-nav-dock">
+    <button class="btn-nav-step" id="btnNavPrev" disabled title="Ke Bagian Sebelumnya (Panah Kiri / P)">
+      <i class="fas fa-arrow-left"></i> Sebelumnya
+    </button>
+    
+    <div class="nav-step-indicator" id="navStepIndicator">
+      <span>Cover</span>
+    </div>
+
+    <button class="btn-nav-step" id="btnNavNext" title="Ke Bagian Berikutnya (Panah Kanan / N)">
+      Selanjutnya <i class="fas fa-arrow-right"></i>
+    </button>
+  </div>
+
+  <!-- ===================================================================
+       MODAL EMBED FULLSCREEN VIEWER
+       =================================================================== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title">
+          <h3 id="modalTitle">Pratinjau Dokumen Artefak</h3>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.75rem;">
+          <a href="#" target="_blank" rel="noopener noreferrer" id="modalExternalBtn" class="btn-embed-action primary-link" style="padding:0.35rem 0.85rem; font-size:0.78rem;">
+            <i class="fas fa-external-link-alt"></i> Buka Penuh
+          </a>
+          <button class="modal-close-btn" id="modalCloseBtn" title="Tutup Pratinjau (Esc)">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe id="modalFrame" src="" title="Fullscreen Embed View"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       SEARCH MODAL (PENCARIAN CEPAT KATA KUNCI ARTEFAK & TEORI)
+       =================================================================== -->
+  <div class="modal-overlay" id="searchModal">
+    <div class="modal-container" style="max-width:680px; height:auto; max-height:80vh;">
+      <div class="modal-header">
+        <div class="modal-title">
+          <h3><i class="fas fa-search" style="color:var(--accent-terracotta);"></i> Cari Artefak & Kajian Teori</h3>
+        </div>
+        <button class="modal-close-btn" id="searchModalClose" title="Tutup Pencarian">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div style="padding:1.25rem 1.75rem; background:var(--secondary-light); border-bottom:1px solid var(--neutral-border);">
+        <input type="text" id="searchInput" placeholder="Ketik kata kunci, misal: PBL, Vygotsky, Fantasi, Sroto, Video, Mayer..." style="width:100%; padding:0.8rem 1.2rem; border-radius:30px; border:1px solid var(--neutral-border); font-size:0.95rem; font-family:var(--font-sans); outline:none; background:#FFF;">
+      </div>
+      <div id="searchResults" style="padding:1.25rem 1.75rem; overflow-y:auto; max-height:420px; background:var(--secondary-card);"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
